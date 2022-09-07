@@ -1,0 +1,99 @@
+@font-face {
+    font-family: fa;
+    src: url('../res/mainf.ttf');
+}
+*{
+    margin: 0;   
+    font-family: fa; 
+}
+body{
+    background-color: rgb(221, 221, 221);
+}
+.container{
+    width: 30%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-color: white;
+}
+.menu{
+    width: 100%;
+    height: 50px;
+    background-color: rgb(71, 204, 71);
+    text-align: center;
+    color: white;
+}
+.logo{
+    float: left;
+    margin-right: -48px;
+}
+.menu-ti{
+    float: left;
+    color: white;
+}
+.box{
+    width: 90%;
+    height: 40px;
+    margin-top: 20px;
+    margin-left: 5%;
+    border: solid 2px rgb(71, 204, 71);
+    display: inline-flex;
+}
+.inp{
+    width: 100%;
+    outline: none;
+    border: none;
+    padding: 5px;
+    box-sizing: border-box;
+    font-size: 18px;
+    position: relative;
+    top: 0px;
+}
+.place{
+    position: absolute;
+    transform: translate(10px,-15px);
+    background-color: white;
+    text-align: center;
+    color: rgb(71, 204, 71);
+}
+.submit{
+    width: 40%;
+    height: 30px;
+    background-color: rgb(71, 204, 71);
+    border: none;
+    outline: none;
+    margin-top: 30px;
+    margin-left: 5%;
+    color: white;
+    font-size: 18px;
+    float: left;
+}
+.red{
+    float: left;
+    width: 40%;
+    text-align: center;
+    margin-top: 30px;
+    margin-left: 5%;
+    color: rgb(71, 204, 71);
+    margin-bottom: 20px;
+}
+.error{
+    border: solid 2px rgb(204, 71, 71);
+}
+.errorp{
+    color: rgb(204, 71, 71);
+}
+.erro-box{
+    position: absolute;
+    width: 30%;
+    height: 50px;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%,0);
+    background-color: rgb(156, 55, 55);
+    color: white;
+    text-align: center;
+    padding-top: 10px;
+    box-sizing: border-box;
+}

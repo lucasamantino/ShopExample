@@ -1,0 +1,50 @@
+.preview{
+    width: 40%;
+    height: 90%;
+    background-color: white;
+    float: left;
+}
+.pimg{
+    width: 85%;
+    height: 60%;
+    margin: 9%;
+}
+.desc{
+    float: left;
+    width: 60%;
+    height: 100%;
+    background-color: white;
+}
+body{
+    background-color: white;
+    padding-bottom: 20px;
+}
+.produ-title{
+    margin-top: 20px;
+    width: 70%;
+}
+.pr-desc{
+    font-size: 23px;
+    margin-top: 50px;
+}
+.prod-desc{
+    width: 70%;
+    font-size: 20px;
+}
+.prec{
+    font-size: 23px;
+    font-weight: 500;
+    margin-top: 10px;
+    margin-left: 5px;
+}
+.buy{
+    width: 150px;
+    height: 30px;
+    border: none;
+    background-color: rgb(48, 182, 48);
+    color: white;
+    margin-top: 20px;
+    font-size: 18px;
+    cursor: pointer;
+    border-radius: 6px;
+}

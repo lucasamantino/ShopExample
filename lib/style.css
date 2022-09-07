@@ -1,0 +1,93 @@
+@font-face {
+    font-family: fa;
+    src: url('../res/mainf.ttf');
+}
+*{
+    margin: 0;   
+    font-family: fa; 
+}
+body{
+    background-color: rgb(221, 221, 221);
+    padding-top: 90px;
+}
+.menu{
+    width: 100%;
+    height: 90px;
+    background-color: rgb(71, 204, 71);
+    color: white;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+.logo-menu-container{
+    padding: 20px;
+    display: flex;
+    float: left;
+}
+.searchBar-menu{
+    width: 40%;
+    height: 40px;
+    border: none;
+    float: left;
+    margin-top: 26px;
+    margin-left: 100px;
+    outline: none;
+    font-size: 20px;
+    padding: 20px;
+    box-sizing: border-box;
+}
+.inv-link{
+    text-decoration: none;
+    color: white;
+}
+.account-menu{
+    float: right;
+    margin-right: 5%;
+    margin-top: 10px;
+}
+.shp{
+    margin-top: 30px;
+    margin-left: 10%;
+    float: left;
+    display: flex;
+}
+.box{
+    width: 230px;
+    margin: 50px;
+    background-color: white;
+    padding-top: 5px;
+    border-radius: 10px;
+    overflow: hidden;
+    transition: 0.5s;
+    float: left;
+    cursor: pointer;
+    color: black;
+}
+.box-img{
+    width: 90%;
+    height: 200px;
+    margin-left: 5%;
+}
+.mon{
+    margin-left: 10px;
+    font-size: 20px;
+}
+.parc{
+    font-size: 15px;
+    margin-left: 10px;
+}
+.description{
+    color: rgb(138, 138, 138);
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.results{
+    color: rgb(71, 71, 71);
+    margin: 20px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
